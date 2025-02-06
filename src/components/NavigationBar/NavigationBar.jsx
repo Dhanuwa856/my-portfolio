@@ -50,7 +50,7 @@ const NavigationBar = () => {
       <div
         className={`${
           isMenuOpen ? "flex" : "hidden"
-        } lg:flex lg:items-center lg:gap-8 bg-white w-[50%]  lg:w-fit absolute lg:relative top-16 lg:top-auto right-2 lg:left-auto flex-col lg:flex-row p-4 lg:px-3 lg:py-2 shadow-lg rounded-lg lg:rounded-[70px] text-center gap-5 `}
+        } lg:flex lg:items-center lg:gap-8 bg-white w-[60%]  lg:w-fit absolute lg:relative top-16 lg:top-auto right-2 lg:left-auto flex-col lg:flex-row p-4 lg:px-3 lg:py-2 shadow-lg rounded-lg lg:rounded-[70px] text-center gap-2 `}
       >
         {/* Logo */}
         <div className="flex justify-center lg:justify-start mb-4 lg:mb-0">

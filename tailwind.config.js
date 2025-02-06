@@ -13,6 +13,16 @@ export default {
         header: ['"Smooch Sans"', "serif"], // Header font
         body: ['"Kanit"', "serif"], // Normal text font
       },
+      keyframes: {
+        slide: {
+          "0%": { "background-position": "0% 50%" },
+          "100%": { "background-position": "100% 50%" },
+        },
+      },
+      animation: {
+        slide: "slide 2s ease infinite",
+        "spin-slow": "spin 6s linear infinite", // Slow Rotation
+      },
     },
   },
   plugins: [],
