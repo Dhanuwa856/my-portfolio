@@ -13,7 +13,7 @@ import HeroBtn from "../HeroBtn/HeroBtn";
 
 const Hero = () => {
   const [imageIndex, setImageIndex] = useState(0);
-  const images = ["/hero01.jpg", "/hero02.jpg", "/hero03.jpg"];
+  const images = ["/hero01.jpg", "/hero02.jpg", "/hero03.jpg", "/hero04.jpg"];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -27,7 +27,7 @@ const Hero = () => {
 
   const handleCVDownload = () => {
     const link = document.createElement("a");
-    link.href = "/mycv.pdf"; // Update this path to your CV file
+    link.href = "/DhanushkaRathnayakacv.pdf"; // Update this path to your CV file
     link.download = "DhanushkaRathnayaka_CV.pdf";
     link.click();
     toast.success("CV Downloaded Successfully!");

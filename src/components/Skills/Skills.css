@@ -1,0 +1,13 @@
+.perspective {
+  perspective: 1000px;
+}
+
+.card-inner {
+  transform-style: preserve-3d;
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.perspective:hover {
+  transform: rotateX(15deg) rotateY(15deg);
+  box-shadow: 0 0 20px rgba(9, 126, 155, 0.8);
+}
