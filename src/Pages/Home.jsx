@@ -5,6 +5,7 @@ import AboutSection from "../components/About/About";
 import TitleTag from "../components/TitleTag/TitleTag";
 import Projects from "../components/Projects/Projects";
 import Skills from "../components/Skills/Skills";
+import EducationSection from "../components/Education/Education";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <TitleTag sub_title="My Skills" />
       <Skills />
       <TitleTag sub_title="education" />
+      <EducationSection />
     </>
   );
 };

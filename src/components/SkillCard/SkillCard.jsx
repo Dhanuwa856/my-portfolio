@@ -70,7 +70,7 @@ const StyledWrapper = styled.div`
   #card {
     position: absolute;
     inset: 0;
-    z-index: -1;
+    z-index: -10;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -116,7 +116,7 @@ const StyledWrapper = styled.div`
   .canvas {
     perspective: 800px;
     inset: 0;
-    z-index: 200;
+    /* z-index: 200; */
     position: absolute;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -127,7 +127,7 @@ const StyledWrapper = styled.div`
   /* Tracker elements for 3D hover transforms */
   .tracker {
     position: absolute;
-    z-index: 200;
+    /* z-index: 200; */
     width: 100%;
     height: 100%;
   }
