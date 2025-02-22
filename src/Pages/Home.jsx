@@ -6,6 +6,7 @@ import TitleTag from "../components/TitleTag/TitleTag";
 import Projects from "../components/Projects/Projects";
 import Skills from "../components/Skills/Skills";
 import EducationSection from "../components/Education/Education";
+import ProjectsSection from "../components/Projects/Projects";
 
 const Home = () => {
   return (
@@ -18,6 +19,8 @@ const Home = () => {
       <Skills />
       <TitleTag sub_title="education" />
       <EducationSection />
+      <TitleTag sub_title="projects" />
+      <ProjectsSection />
     </>
   );
 };

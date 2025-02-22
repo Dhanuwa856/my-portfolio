@@ -29,7 +29,7 @@ const AboutSection = () => {
           {/* Details Section */}
           <div className="w-full md:w-1/2 text-center md:text-left mb-8 md:mb-0">
             <motion.h2
-              className="text-3xl md:text-4xl font-bold mb-4 font-header"
+              className="text-3xl md:text-4xl font-bold mb-4 font-header text-gray-800"
               initial={initial}
               whileInView={whileInView}
               transition={transition}

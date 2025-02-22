@@ -115,7 +115,7 @@ const slideIn = keyframes`
 `;
 
 const StyledEducation = styled.div`
-  padding: 2rem 0;
+  padding: 2rem 0 8rem;
   min-height: 100vh;
   display: flex;
   align-items: center;
