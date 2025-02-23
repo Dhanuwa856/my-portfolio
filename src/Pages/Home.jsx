@@ -7,12 +7,14 @@ import Projects from "../components/Projects/Projects";
 import Skills from "../components/Skills/Skills";
 import EducationSection from "../components/Education/Education";
 import ProjectsSection from "../components/Projects/Projects";
+import ToggleBtn from "../components/ToggleBtn/ToggleBtn";
 
 const Home = () => {
   return (
     <>
       <NavigationBar />
       <Hero />
+      <ToggleBtn />
       <TitleTag sub_title="about me" />
       <AboutSection />
       <TitleTag sub_title="My Skills" />

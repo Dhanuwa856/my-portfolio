@@ -107,6 +107,7 @@ const ProjectCard = ({ project }) => {
             href={project.links.github}
             aria-label="GitHub"
             className="text-gray-600 hover:text-[#4F46E5] transition-colors"
+            target="_blank"
           >
             <FiGithub size={20} />
           </a>
@@ -114,6 +115,7 @@ const ProjectCard = ({ project }) => {
             href={project.links.demo}
             aria-label="Demo"
             className="text-gray-600 hover:text-[#4F46E5] transition-colors"
+            target="_blank"
           >
             <FiExternalLink size={20} />
           </a>

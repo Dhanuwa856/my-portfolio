@@ -7,8 +7,8 @@ const SkillCard = ({ icon, name }) => {
     <StyledWrapper>
       <motion.div
         className="container noselect"
-        initial={{ x: -350 }}
-        whileInView={{ x: 0 }}
+        initial={{ y: 50, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
         transition={{
           type: "spring",
           stiffness: 500,
